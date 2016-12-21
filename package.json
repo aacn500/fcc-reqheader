@@ -1,0 +1,24 @@
+{
+  "name": "@aacn500/fcc-reqheader",
+  "version": "0.0.0",
+  "description": "Request Header Parser for freeCodeCamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aacn500/fcc-reqheader.git"
+  },
+  "author": "@aacn500",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aacn500/fcc-reqheader/issues"
+  },
+  "homepage": "https://github.com/aacn500/fcc-reqheader#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
