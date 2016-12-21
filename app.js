@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 80;
 
 let app = express();
 
-app.use(function(_, res, next) {
+// http://www.gnuterrypratchett.com/#nodejs
+app.use(function clacksOverhead(_, res, next) {
   res.set('X-Clacks-Overhead', 'GNU Terry Pratchett');
   next();
 });
